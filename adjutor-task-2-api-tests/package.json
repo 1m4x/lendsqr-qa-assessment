@@ -1,0 +1,21 @@
+{
+    "name": "adjutor-task-2-api-tests",
+    "version": "1.0.0",
+    "description": "Lendsqr Adjutor QA Assessment - Task 2 (Nigeria Country Specific Endpoints)",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --runInBand",
+      "test:report": "jest --runInBand --json --outputFile=./test-results.json"
+    },
+    "keywords": ["adjutor", "lendsqr", "qa", "api", "jest"],
+    "author": "QA Assessment Submission",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.7.9",
+      "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0"
+    }
+  }
+  
